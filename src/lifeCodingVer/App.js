@@ -21,7 +21,7 @@ function reducer(state, action) {
     }
     
 2. 초기 state 설정 (선택 사항)
-    const initState = { value: 0 };
+  const initState = { value: 0 };
     
 3. 스토어 생성 : (리듀서, state)가 매개변수로 들어옴
   스토어? 전역 상태들이 저장되는 저장소
@@ -34,7 +34,7 @@ function reducer(state, action) {
 6. reducer로 action을 넘겨줄 dispatch를 작성 
 
 7. store를 쪼개서 관리할 수 있는 저장소 slice 생성
-    slice에 필요한 것 : 변수, 초기값, 리듀서s (reducer랑 다른 거임)
+  slice에 필요한 것 : 변수, 초기값, 리듀서s (reducer랑 다른 거임)
 */
 
 // 리덕스 툴킷 설치 : npm install @reduxjs/toolkit
